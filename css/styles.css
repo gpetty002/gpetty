@@ -151,14 +151,17 @@ body {
 
 #gearsClipArt {
   float: left;
-  padding-left: 20px;
+  position: absolute;
+  left: 45px;
+  top: 870px;
+  /*padding-left: 20px;*/
+
   padding-top: 10px;
 }
 
 #computerScreenLogo {
   float: left;
-  padding-top: 200px;
-  
+  padding-top: 160px;
 }
 
 .row2-skills {
@@ -167,6 +170,39 @@ body {
 }
 
 #info {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #C5C5C5;
+}
+
+.workExperience {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.workExperience .title {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  left: 90px;
+
+}
+
+.workExperience .codeNinjas {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 120px;
+  top: 1180px;
+}
+
+.workExperience .background {
+  float: left;
+  padding-top: 130px;
+  padding-left: 110px;
+  padding-bottom: 100px;
+  width: 35%;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
@@ -322,6 +358,7 @@ body {
   padding-bottom: 150px;
   position: relative;
   top: -180px;
+  left: 120px;
 }
 
 #sendMessage {
@@ -334,9 +371,11 @@ body {
   border-color: white;
   border-width: 2px;
   border-style: solid;
+  text-decoration: none;
   font-size: 15px;
-  width: 14%;
   padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 10px;
   margin-left: 540px;
   margin-bottom: 20px;
@@ -348,4 +387,21 @@ body {
 #sendMessage:hover {
   background-color: white;
   color: black;
+}
+
+.errorpage {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 400px;
+  text-align: center;
+}
+
+.personalprojects .title {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
 }
