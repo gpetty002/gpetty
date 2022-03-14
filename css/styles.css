@@ -1,0 +1,349 @@
+.topNav {
+  background-color: #222222;
+  overflow: hidden;
+}
+
+.topNav a {
+  float: right;
+  color: #C5C5C5;
+  text-align: center;
+  padding: 45px 45px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.topNav a:nth-child(5) {
+  float: left;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 45px;
+}
+
+.topNav a:last-child {
+  float: left;
+  padding-left: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.topNav a:hover {
+  color: white;
+}
+
+#logo {
+  align-items: center;
+}
+
+body {
+  background-color: #222222;
+}
+
+ /* About Me Page */
+
+.aboutMe .aboutMe-Writing {
+  color:#C5C5C5;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-top: 160px;
+  padding-left: 650px;
+  padding-right: 100px;
+}
+
+#myTitle {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 2;
+}
+
+#myName {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#intro {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+#headshot {
+  float: left;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+#downloadCV {
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  left: 650px;
+  border-radius: 40px;
+  font-size: 16px;
+  border-color: #006ac7;
+  border-width: 2px;
+  border-style: solid;
+  padding: 7px 25px;
+}
+
+#downloadCV:hover {
+  background-color: #006ac7;
+}
+
+#contactBtn {
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  left: 810px;
+  font-size: 16px;
+  border-radius: 40px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 7px 40px;
+}
+
+#contactBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.Skills-Title {
+  padding-top: 240px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 85px;
+}
+
+#Skills-Line {
+  size: 1;
+  width: 9%;
+  float: left; 
+  position: absolute;
+  top: 812px;
+  left: 80px;
+}
+
+.skills-Container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.row1-skills {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+
+
+#gearsClipArt {
+  float: left;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+#computerScreenLogo {
+  float: left;
+  padding-top: 200px;
+  
+}
+
+.row2-skills {
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+#info {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #C5C5C5;
+}
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact .title {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  background-color: #272727;
+}
+
+.contact .subTitle {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+#subTitle-Line { 
+  margin-left: 540px;
+  padding-left: 90px;
+  size: 1;
+  width: 20%;
+}
+
+.contact .img {
+  padding-left: 100px;
+}
+
+#goToGitHub {
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  left: 120px;
+  top: 580px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: #006ac7;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px 86px;
+}
+
+#goToGitHub:hover {
+  background-color: #006ac7;
+}
+
+#goToLinkedIn {
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  left: 120px;
+  top: 650px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: #006ac7;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px 80px;
+}
+
+#goToLinkedIn:hover {
+  background-color: #006ac7;
+}
+
+#fullName::placeholder {
+  color: #C5C5C5;
+  padding-left: 15px;
+}
+
+#email::placeholder {
+  color: #C5C5C5;
+  padding-left: 15px;
+}
+
+#subject::placeholder {
+  color: #C5C5C5;
+  padding-left: 15px;
+}
+
+#fullName {
+  background-color: #333333;
+  border-color: #C5C5C5;
+  border-style: solid;
+  color: #C5C5C5;
+  font-size: 15px;
+  width: 26%;
+  margin-left: 540px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#email {
+  background-color: #333333;
+  border-color: #C5C5C5;
+  border-width: 1px;
+  border-style: solid;
+  color: #C5C5C5;
+  font-size: 15px;
+  width: 26%;
+  margin-left: 540px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#subject {
+  background-color: #333333;
+  border-color: #C5C5C5;
+  border-style: solid;
+  color: #C5C5C5;
+  font-size: 15px;
+  width: 26%;
+  margin-left: 540px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#message::placeholder {
+  color: #C5C5C5;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#message {
+  background-color: #333333;
+  border-color: #C5C5C5;
+  border-style: solid;
+  color: #C5C5C5;
+  font-size: 15px;
+  width: 26%;
+  margin-left: 950px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 150px;
+  position: relative;
+  top: -180px;
+}
+
+#sendMessage {
+  background-color: #333333;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 40px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 15px;
+  width: 14%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 540px;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  top: -180px;
+}
+
+#sendMessage:hover {
+  background-color: white;
+  color: black;
+}
