@@ -194,12 +194,12 @@ body {
   font-weight: bold;
   position: absolute;
   left: 120px;
-  top: 1180px;
+  top: 1230px;
 }
 
 .workExperience .background {
   float: left;
-  padding-top: 130px;
+  padding-top: 100px;
   padding-left: 110px;
   padding-bottom: 100px;
   width: 35%;
@@ -217,10 +217,11 @@ body {
   font-size: 60px;
   color: white;
   font-weight: bold;
-  padding-top: 80px;
-  padding-left: 80px;
-  padding-bottom: 80px;
-  background-color: #272727;
+  padding-top: 150px;
+  padding-left: 120px;
+  padding-bottom: 150px;
+  background-color: #006ac7;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact .subTitle {
@@ -247,7 +248,7 @@ body {
   position: absolute;
   color: white;
   left: 120px;
-  top: 580px;
+  top: 680px;
   border-radius: 40px;
   font-size: 20px;
   font-weight: bold;
@@ -266,7 +267,7 @@ body {
   position: absolute;
   color: white;
   left: 120px;
-  top: 650px;
+  top: 750px;
   border-radius: 40px;
   font-size: 20px;
   font-weight: bold;
@@ -358,7 +359,7 @@ body {
   padding-bottom: 150px;
   position: relative;
   top: -180px;
-  left: 120px;
+  left: 20px;
 }
 
 #sendMessage {
@@ -397,11 +398,97 @@ body {
 }
 
 .personalprojects .title {
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
   color: white;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 120px;
+  padding-bottom: 150px;
+  background-color: #006ac7;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.personalprojects .list {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.myWebsite {
+  background-color: #cccccc;
+  color: #222222;
+  padding-top: 220px;
+  padding-left: 120px;
+  padding-bottom: 220px;
+
+}
+
+.websiteImg {
+  float: right;
+  margin-top: -40px;
+  padding-right: 120px;
+}
+
+.squidwardProject {
+  padding-top: 220px;
+  padding-left: 120px;
+  padding-bottom: 220px;
+}
+
+.squidwardImg {
+  float: right;
+  padding-right: 120px;
+  padding-left: 100px;
+  margin-top: -20px;
+}
+
+.hotelManage {
+  background-color: #cccccc;
+  color: #222222;
+  padding-top: 220px;
+  padding-left: 120px;
+  padding-bottom: 220px;
+}
+
+.hotelImg {
+  float: right;
+  padding-right: 120px;
+  padding-left: 100px;
+  margin-top: -20px;
+}
+
+.sims4 {
+  padding-top: 220px;
+  padding-left: 120px;
+  padding-bottom: 220px;
+}
+
+.simsImg {
+  float: right;
+  padding-right: 120px;
+  margin-top: -20px;
+  padding-left: 100px;
+}
+
+.cBoard {
+  background-color: #cccccc;
+  color: #222222;
+  padding-top: 220px;
+  padding-left: 120px;
+  padding-bottom: 220px;
+}
+
+.cBoardImg {
+  float: right;
+  padding-right: 120px;
+  margin-top: -20px;
+  padding-left: 100px;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.personalprojects a:link {
+  color: #006ac7;
 }
