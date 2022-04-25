@@ -3,20 +3,37 @@
 <head>
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="shortcut icon" href="Assets/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisselle Petty - Projects</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="topNav">
-        <a href="contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
-        <a href="documents/GissellePettyResume.pdf">Resume</a>
-        <a class="active" href="index.html">About Me</a>
-        <a href="#logo">
-            <img src="Assets/GP-Logo.svg" alt="GP logo" id="logo" height="50" width="50">
+        
+        <div class="myLinks">
+            <a href="contact.html">Contact</a>
+            <br>
+            <br>
+            <br>
+            <a href="projects.html">Projects</a>
+            <br>
+            <br>
+            <br>
+            <a href="documents/GissellePettyResume.pdf">Resume</a>
+            <br>
+            <br>
+            <br>
+            <a class="active" href="index.html">About Me</a>
+        </div>
+        
+        <a href="index.html">
+            <img src="Assets/GP-Logo.svg" alt="GP logo" id="logo">
         </a>
-        <a>Gisselle Petty</a>
+        <a id="navName" >Gisselle Petty</a>
+        
+        <i href="javascript:void(0);" class="fa fa-bars" onclick="openMenu()"></i>
     </div>
 
     <div class="personalprojects">
@@ -27,9 +44,10 @@
         <div class="list">
 
             <div class="myWebsite">
-                <p><span class="bolded">Personal Website (this one)</span>, March 2021 <img src="Assets/screenshot.png" width="500" height="300" class="websiteImg"></p>
+                <p><span class="bolded">Personal Website</span>, March 2022 
+                <img src="Assets/screenshot.png" width="500" height="300" class="websiteImg"></p>
                 <a href="https://github.com/gpetty002/gpetty.git" class="bolded">Github Repository</a>
-                <p><span class="bolded">Programming language: </span>HTML, CSS</p>
+                <p><span class="bolded">Programming language: </span>HTML, CSS, Javascript</p>
                 <p><span class="bolded">Other languages/softwares used: </span>Git</p>
                 <p>
                     <span class="bolded">Fun Fact: </span>
@@ -37,18 +55,20 @@
                 </p>
                 <p>
                     <span class="bolded">Biggest Challenge: </span>
-                    Evenly aligning images with text. 
+                    Finally creating a mobile responsive UI and implementing a side navbar. 
                 </p>
                 
             </div>
 
             <div class="squidwardProject">
-                <p><span class="bolded">Krabby Patty Flipping Game (unfinished)</span>, July 2021 - March 2022
-                    <iframe width="500" height="300" src="https://www.youtube.com/embed/uLn7NWto0rQ" class="squidwardImg"
+                <p><span class="bolded">Krabby Patty Flipping Game 
+                    (unfinished)</span>,
+                    July 2021 - March 2022
+                </p>
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/uLn7NWto0rQ" class="squidwardImg"
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                     encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </p>
+                </iframe>
                 <a href="https://github.com/gpetty002/Squidward-Adventure.git" class="bolded">Github Repository</a>
                 <p><span class="bolded">Programming language: </span>C++</p>
                 <p><span class="bolded">Other languages/softwares used: </span>SFML 2.0, Git</p>

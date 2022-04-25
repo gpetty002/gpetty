@@ -3,21 +3,38 @@
 <head>
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="shortcut icon" href="Assets/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisselle Petty - Contact</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="topNav">
-        <a href="contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
-        <a href="documents/GissellePettyResume.pdf">Resume</a>
-        <a class="active" href="index.html">About Me</a>
-        <a href="#logo">
-            <img src="Assets/GP-Logo.svg" alt="GP logo" id="logo" height="50" width="50">
+        
+        <div class="myLinks">
+            <a href="contact.html">Contact</a>
+            <br>
+            <br>
+            <br>
+            <a href="projects.html">Projects</a>
+            <br>
+            <br>
+            <br>
+            <a href="documents/GissellePettyResume.pdf">Resume</a>
+            <br>
+            <br>
+            <br>
+            <a class="active" href="index.html">About Me</a>
+        </div>
+        
+        <a href="index.html">
+            <img src="Assets/GP-Logo.svg" alt="GP logo" id="logo">
         </a>
-        <a>Gisselle Petty</a>
+        <a id="navName" >Gisselle Petty</a>
+        
+        <i href="javascript:void(0);" class="fa fa-bars" onclick="openMenu()"></i>
     </div>
     
     <div class="contact">
@@ -40,7 +57,7 @@
         <br>
 
         <form action="" method="post">
-            <input type="text" name="fullName" id="fullName" placeholder="First Name">
+            <input type="text" name="fullName" id="fullName" placeholder="Full name">
             <input type="text" name="email" id="email" placeholder="Email Address">
             <input type="text" name="subject" id="subject" placeholder="Subject">
             <input type="text" name="message" id="message" placeholder="Message" style="text-align:left;">
@@ -49,8 +66,6 @@
             <!-- <button type="submit" name="sendMessage" id="sendMessage">Send message</button> -->
             <a href="error.html" id="sendMessage">Send message</a>
         </form>
-
     </div>
-
 </body>
 </html>

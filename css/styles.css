@@ -1,494 +1,992 @@
-.topNav {
-  background-color: #222222;
-  overflow: hidden;
+@media screen and (min-width: 1200px) {
+  .topNav {
+    background-color: #222222;
+    overflow: hidden;
+  }
+
+  .topNav br {
+    display: none;
+  }
+  
+  .topNav a  {
+    float: right;
+    color: #C5C5C5;
+    text-align: center;
+    padding: 45px 45px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  .topNav i {
+    display: none;
+  }
+  
+  .topNav a:hover {
+    color: white;
+  }
+  
+  #logo {
+    align-items: center;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: -690px;
+    margin-top: -14px;
+  }
+
+  #navName {
+    align-items: center;
+    float: left;
+    margin-left: 100px;
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  body {
+    background-color: #222222;
+  }
+  
+   /* About Me Page */
+  
+  .aboutMe .aboutMe-Writing {
+    color:#C5C5C5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 160px;
+    padding-left: 650px;
+    padding-right: 100px;
+  }
+  
+  #myTitle {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 2;
+  }
+  
+  #myName {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  #intro {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  
+  #headshot {
+    float: left;
+    padding-top: 100px;
+    padding-left: 200px;
+  }
+  
+  #downloadCV {
+    background-color: #333333;
+    position: absolute;
+    color: white;
+    left: 650px;
+    border-radius: 40px;
+    font-size: 16px;
+    border-color: #006ac7;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 25px;
+  }
+  
+  #downloadCV:hover {
+    background-color: #006ac7;
+  }
+  
+  #contactBtn {
+    background-color: #333333;
+    position: absolute;
+    color: white;
+    left: 810px;
+    font-size: 16px;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 40px;
+  }
+  
+  #contactBtn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .Skills-Title {
+    padding-top: 240px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 85px;
+  }
+  
+  #Skills-Line {
+    size: 1;
+    width: 9%;
+    float: left; 
+    position: absolute;
+    top: 812px;
+    left: 80px;
+  }
+  
+  .skills-Container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 50px;
+    padding-top: 20px;
+  }
+  
+  .row1-skills {
+    float: left;
+    width: 35%;
+    padding-left: 20px;
+    padding-right: 200px;
+  }
+  
+  
+  #gearsClipArt {
+    float: left;
+    position: absolute;
+    left: 45px;
+    top: 870px;
+    /*padding-left: 20px;*/
+  
+    padding-top: 10px;
+  }
+  
+  #computerScreenLogo {
+    float: left;
+    padding-top: 160px;
+  }
+  
+  .row2-skills {
+    padding-left: 80px;
+    padding-right: 100px;
+  }
+  
+  #info {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #C5C5C5;
+  }
+  
+  .workExperience {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .workExperience .title {
+    color: white;
+    float: left;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 80px;
+  }
+  
+  .workExperience .codeNinjas {
+    color: white;
+    font-weight: bold;
+    padding-left: 110px;
+    padding-top: 60px;
+  }
+  
+  .workExperience .background {
+    float: left;
+    padding-top: 0px;
+    padding-left: 110px;
+    padding-bottom: 100px;
+    width: 35%;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #C5C5C5;
+  }
+  
+  .contact {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contact .title {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-bottom: 150px;
+    background-color: #006ac7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .contact .subTitle {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-left: 300px;
+    padding-top: 30px;
+  }
+  
+  #subTitle-Line { 
+    margin-left: 540px;
+    padding-left: 90px;
+    size: 1;
+    width: 20%;
+  }
+  
+  .contact .img {
+    padding-left: 100px;
+  }
+  
+  #goToGitHub {
+    background-color: #333333;
+    position: absolute;
+    color: white;
+    left: 120px;
+    top: 680px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #006ac7;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 86px;
+  }
+  
+  #goToGitHub:hover {
+    background-color: #006ac7;
+  }
+  
+  #goToLinkedIn {
+    background-color: #333333;
+    position: absolute;
+    color: white;
+    left: 120px;
+    top: 750px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #006ac7;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 80px;
+  }
+  
+  #goToLinkedIn:hover {
+    background-color: #006ac7;
+  }
+  
+  #fullName::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+  
+  #email::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+  
+  #subject::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+  
+  #fullName {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  #email {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-width: 1px;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  #subject {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  #message::placeholder {
+    color: #C5C5C5;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  #message {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    margin-left: 950px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 150px;
+    position: relative;
+    top: -180px;
+    left: 20px;
+  }
+  
+  #sendMessage {
+    background-color: #333333;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    margin-left: 540px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    top: -180px;
+  }
+  
+  #sendMessage:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .errorpage {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+    text-align: center;
+  }
+  
+  .personalprojects .title {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-bottom: 150px;
+    background-color: #006ac7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .personalprojects .list {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .myWebsite {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-bottom: 220px;
+  
+  }
+  
+  .websiteImg {
+    float: right;
+    margin-top: -40px;
+    padding-right: 120px;
+  }
+  
+  .squidwardProject {
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-bottom: 220px;
+  }
+  
+  .squidwardImg {
+    float: right;
+    padding-right: 120px;
+    padding-left: 100px;
+    margin-top: -20px;
+  }
+  
+  .hotelManage {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-bottom: 220px;
+  }
+  
+  .hotelImg {
+    float: right;
+    padding-right: 120px;
+    padding-left: 100px;
+    margin-top: -20px;
+  }
+  
+  .sims4 {
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-bottom: 220px;
+  }
+  
+  .simsImg {
+    float: right;
+    padding-right: 120px;
+    margin-top: -20px;
+    padding-left: 100px;
+  }
+  
+  .cBoard {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 220px;
+    padding-left: 120px;
+    padding-bottom: 220px;
+  }
+  
+  .cBoardImg {
+    float: right;
+    padding-right: 120px;
+    margin-top: -20px;
+    padding-left: 100px;
+  }
+  
+  .bolded {
+    font-weight: bold;
+  }
+  
+  .personalprojects a:link {
+    color: #006ac7;
+  }
 }
 
-.topNav a {
-  float: right;
-  color: #C5C5C5;
-  text-align: center;
-  padding: 45px 45px;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.topNav a:nth-child(5) {
-  float: left;
-  padding-top: 50px;
-  padding-right: 10px;
-  padding-left: 45px;
-}
-
-.topNav a:last-child {
-  float: left;
-  padding-left: 10px;
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-}
-
-.topNav a:hover {
-  color: white;
-}
-
-#logo {
-  align-items: center;
-}
-
-body {
-  background-color: #222222;
-}
-
- /* About Me Page */
-
-.aboutMe .aboutMe-Writing {
-  color:#C5C5C5;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  padding-top: 160px;
-  padding-left: 650px;
-  padding-right: 100px;
-}
-
-
-
-#myTitle {
-  font-size: 18px;
-  font-weight: normal;
-  margin: 2;
-}
-
-#myName {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0;
-}
-
-#intro {
-  line-height: 1.5;
-  font-size: 16px;
-}
-
-#headshot {
-  float: left;
-  padding-top: 100px;
-  padding-left: 200px;
-}
-
-#downloadCV {
-  background-color: #333333;
-  position: absolute;
-  color: white;
-  left: 650px;
-  border-radius: 40px;
-  font-size: 16px;
-  border-color: #006ac7;
-  border-width: 2px;
-  border-style: solid;
-  padding: 7px 25px;
-}
-
-#downloadCV:hover {
-  background-color: #006ac7;
-}
-
-#contactBtn {
-  background-color: #333333;
-  position: absolute;
-  color: white;
-  left: 810px;
-  font-size: 16px;
-  border-radius: 40px;
-  border-color: white;
-  border-width: 2px;
-  border-style: solid;
-  padding: 7px 40px;
-}
-
-#contactBtn:hover {
-  background-color: white;
-  color: black;
-}
-
-.Skills-Title {
-  padding-top: 240px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
-  font-weight: bold;
-  padding-left: 85px;
-}
-
-#Skills-Line {
-  size: 1;
-  width: 9%;
-  float: left; 
-  position: absolute;
-  top: 812px;
-  left: 80px;
-}
-
-.skills-Container {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 50px;
-  padding-top: 20px;
-}
-
-.row1-skills {
-  float: left;
-  width: 35%;
-  padding-left: 20px;
-  padding-right: 200px;
-}
-
-
-#gearsClipArt {
-  float: left;
-  position: absolute;
-  left: 45px;
-  top: 870px;
-  /*padding-left: 20px;*/
-
-  padding-top: 10px;
-}
-
-#computerScreenLogo {
-  float: left;
-  padding-top: 160px;
-}
-
-.row2-skills {
-  padding-left: 80px;
-  padding-right: 100px;
-}
-
-#info {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #C5C5C5;
-}
-
-.workExperience {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.workExperience .title {
-  color: white;
-  font-size: 23px;
-  font-weight: bold;
-  position: absolute;
-  left: 90px;
-
-}
-
-.workExperience .codeNinjas {
-  color: white;
-  font-weight: bold;
-  position: absolute;
-  left: 120px;
-  top: 1230px;
-}
-
-.workExperience .background {
-  float: left;
-  padding-top: 100px;
-  padding-left: 110px;
-  padding-bottom: 100px;
-  width: 35%;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #C5C5C5;
-}
-
-.contact {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact .title {
-  font-size: 60px;
-  color: white;
-  font-weight: bold;
-  padding-top: 150px;
-  padding-left: 120px;
-  padding-bottom: 150px;
-  background-color: #006ac7;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact .subTitle {
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-  padding-left: 300px;
-  padding-top: 30px;
-}
-
-#subTitle-Line { 
-  margin-left: 540px;
-  padding-left: 90px;
-  size: 1;
-  width: 20%;
-}
-
-.contact .img {
-  padding-left: 100px;
-}
-
-#goToGitHub {
-  background-color: #333333;
-  position: absolute;
-  color: white;
-  left: 120px;
-  top: 680px;
-  border-radius: 40px;
-  font-size: 20px;
-  font-weight: bold;
-  border-color: #006ac7;
-  border-width: 2px;
-  border-style: solid;
-  padding: 10px 86px;
-}
-
-#goToGitHub:hover {
-  background-color: #006ac7;
-}
-
-#goToLinkedIn {
-  background-color: #333333;
-  position: absolute;
-  color: white;
-  left: 120px;
-  top: 750px;
-  border-radius: 40px;
-  font-size: 20px;
-  font-weight: bold;
-  border-color: #006ac7;
-  border-width: 2px;
-  border-style: solid;
-  padding: 10px 80px;
-}
-
-#goToLinkedIn:hover {
-  background-color: #006ac7;
-}
-
-#fullName::placeholder {
-  color: #C5C5C5;
-  padding-left: 15px;
-}
-
-#email::placeholder {
-  color: #C5C5C5;
-  padding-left: 15px;
-}
-
-#subject::placeholder {
-  color: #C5C5C5;
-  padding-left: 15px;
-}
-
-#fullName {
-  background-color: #333333;
-  border-color: #C5C5C5;
-  border-style: solid;
-  color: #C5C5C5;
-  font-size: 15px;
-  width: 26%;
-  margin-left: 540px;
-  margin-bottom: 20px;
-  text-align: left;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-#email {
-  background-color: #333333;
-  border-color: #C5C5C5;
-  border-width: 1px;
-  border-style: solid;
-  color: #C5C5C5;
-  font-size: 15px;
-  width: 26%;
-  margin-left: 540px;
-  margin-bottom: 20px;
-  text-align: left;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-#subject {
-  background-color: #333333;
-  border-color: #C5C5C5;
-  border-style: solid;
-  color: #C5C5C5;
-  font-size: 15px;
-  width: 26%;
-  margin-left: 540px;
-  margin-bottom: 20px;
-  text-align: left;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-#message::placeholder {
-  color: #C5C5C5;
-  text-align: left;
-  padding-left: 15px;
-}
-
-#message {
-  background-color: #333333;
-  border-color: #C5C5C5;
-  border-style: solid;
-  color: #C5C5C5;
-  font-size: 15px;
-  width: 26%;
-  margin-left: 950px;
-  margin-bottom: 20px;
-  text-align: left;
-  padding-top: 8px;
-  padding-bottom: 150px;
-  position: relative;
-  top: -180px;
-  left: 20px;
-}
-
-#sendMessage {
-  background-color: #333333;
-  position: absolute;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 40px;
-  border-color: white;
-  border-width: 2px;
-  border-style: solid;
-  text-decoration: none;
-  font-size: 15px;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 10px;
-  margin-left: 540px;
-  margin-bottom: 20px;
-  text-align: center;
-  position: relative;
-  top: -180px;
-}
-
-#sendMessage:hover {
-  background-color: white;
-  color: black;
-}
-
-.errorpage {
-  background-color: bisque;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 400px;
-  text-align: center;
-}
-
-.personalprojects .title {
-  font-size: 60px;
-  color: white;
-  font-weight: bold;
-  padding-top: 150px;
-  padding-left: 120px;
-  padding-bottom: 150px;
-  background-color: #006ac7;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.personalprojects .list {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-.myWebsite {
-  background-color: #cccccc;
-  color: #222222;
-  padding-top: 220px;
-  padding-left: 120px;
-  padding-bottom: 220px;
-
-}
-
-.websiteImg {
-  float: right;
-  margin-top: -40px;
-  padding-right: 120px;
-}
-
-.squidwardProject {
-  padding-top: 220px;
-  padding-left: 120px;
-  padding-bottom: 220px;
-}
-
-.squidwardImg {
-  float: right;
-  padding-right: 120px;
-  padding-left: 100px;
-  margin-top: -20px;
-}
-
-.hotelManage {
-  background-color: #cccccc;
-  color: #222222;
-  padding-top: 220px;
-  padding-left: 120px;
-  padding-bottom: 220px;
-}
-
-.hotelImg {
-  float: right;
-  padding-right: 120px;
-  padding-left: 100px;
-  margin-top: -20px;
-}
-
-.sims4 {
-  padding-top: 220px;
-  padding-left: 120px;
-  padding-bottom: 220px;
-}
-
-.simsImg {
-  float: right;
-  padding-right: 120px;
-  margin-top: -20px;
-  padding-left: 100px;
-}
-
-.cBoard {
-  background-color: #cccccc;
-  color: #222222;
-  padding-top: 220px;
-  padding-left: 120px;
-  padding-bottom: 220px;
-}
-
-.cBoardImg {
-  float: right;
-  padding-right: 120px;
-  margin-top: -20px;
-  padding-left: 100px;
-}
-
-.bolded {
-  font-weight: bold;
-}
-
-.personalprojects a:link {
-  color: #006ac7;
+@media screen and (max-width: 675px) {
+  /* insert your boss css here and start dominating mobile galaxies */
+  
+  body {
+    background-color: #222222;
+  }
+  .topNav {
+    background-color: #222222;
+    overflow: hidden;
+    width:100%;
+    top: 0;
+    left: 0;
+    position:fixed;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+
+  .myLinks {
+    position: absolute;
+    background-color: #222222;
+    color: #C5C5C5;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20vh;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 100vh; /* 1050px */
+    padding-left: 60px;
+    padding-right: 150px;
+    /* padding-left: 50px;
+    padding-bottom: 100px; */
+    display: none;
+  }
+
+  .topNav a  {
+    color: #C5C5C5;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  #navName {
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 55px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+
+  .topNav i {
+    position: fixed;
+    color: white;
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-left: 370px;
+  }
+
+  #logo {
+    float: left;
+    position: absolute;
+    align-items: center;
+    padding-left: 15px;
+    height: 30px;
+    width: 30px;
+  }
+
+  /* About Me */
+
+  .aboutMe .aboutMe-Writing {
+    color:#C5C5C5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+
+  #myTitle {
+    font-size: 13px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  #myName {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    
+  }
+
+  #intro {
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  #headshot {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display:block;
+    margin:auto;
+    padding-top: 100px;
+  }
+
+  #downloadCV {
+    background-color: #333333;
+    color: white;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    border-color: #006ac7;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 25px;
+  }
+
+  #contactBtn {
+    background-color: #333333;
+    color: white;
+    margin-left: 126px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px 40px;
+  }
+
+
+  .Skills-Title {
+    padding-top: 80px;
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .skills-Container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  #gearsClipArt {
+    float: left;
+    display: flex;
+    margin-left: -75px;
+    margin-top: 20px;
+  }
+
+  #computerScreenLogo {
+    float: left;
+    display: flex;
+    margin-left: -72px;
+    margin-top: 190px;
+  }
+
+  #info {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #C5C5C5;
+  }
+
+  .workExperience {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .workExperience .title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 30px;
+  }
+
+  .workExperience .codeNinjas {
+    color: white;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+
+  .workExperience .background {
+    font-weight: normal;
+    color: #C5C5C5;
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+  }
+
+  .contact {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contact .title {
+    color: white;
+    font-weight: bold;
+    background-color: #006ac7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    padding-left: 40px;
+  }
+
+  .contact .subTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  #subTitle-Line {
+    float: left;
+    padding-left: 30px;
+    margin-left: 26px;
+    margin-top: -10px;
+    width: 40%;
+  }
+
+  #fullName::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+  
+  #email::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+  
+  #subject::placeholder {
+    color: #C5C5C5;
+    padding-left: 15px;
+  }
+
+  #fullName {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 220px;
+  }
+
+  #email {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-width: 1px;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    float: left;
+    margin-top: -15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 235px;
+  }
+
+  #subject {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    float:left;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 235px;
+  }
+
+  #message::placeholder {
+    color: #C5C5C5;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  #message {
+    background-color: #333333;
+    border-color: #C5C5C5;
+    border-style: solid;
+    color: #C5C5C5;
+    font-size: 15px;
+    width: 26%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 150px;
+    padding-right: 235px;
+  }
+
+  #sendMessage {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration: none;
+    float: left;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #goToGitHub { 
+    background-color: #333333;
+    color: white;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #006ac7;
+    border-style: solid;
+    padding: 8px 36px;
+    position: absolute;
+    top: 800px;
+    margin-bottom: 600px;
+  }
+
+  #goToGitHub:hover {
+    background-color: #006ac7;
+  }
+
+  #goToLinkedIn {
+    background-color: #333333;
+    color: white;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: #006ac7;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 36px;
+    position: absolute;
+    top: 800px;
+    float: left;
+    left: 30px;
+  }
+  
+  #goToLinkedIn:hover {
+    background-color: #006ac7;
+  }
+  
+  .personalprojects .title {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding-top: 130px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    background-color: #006ac7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .personalprojects .list {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+  .websiteImg {
+    width: 380px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .myWebsite {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .squidwardImg {
+    width: 380px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .squidwardProject {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .hotelImg {
+    width: 380px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .hotelManage {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .simsImg {
+    width: 380px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .sims4 {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .cBoardImg {
+    width: 380px;
+    height: 230px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .cBoard {
+    background-color: #cccccc;
+    color: #222222;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+  }
+
+  .bolded {
+    font-weight: bold;
+  }
+
+  .personalprojects a:link {
+    color: #006ac7;
+  }
+
 }
