@@ -1,4 +1,8 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
+  .boldItalicize {
+    font-weight: bold;
+    font-style: italic;
+  }
   .topNav {
     background-color: #222222;
     overflow: hidden;
@@ -33,14 +37,14 @@
     float: left;
     height: 50px;
     width: 50px;
-    margin-left: -690px;
-    margin-top: -14px;
+    margin-left: 70px;
+    margin-top: 45px;
   }
 
   #navName {
     align-items: center;
     float: left;
-    margin-left: 100px;
+    margin-left: 10px;
     margin-top: -5px;
     font-weight: bold;
     font-size: 24px;
@@ -121,7 +125,14 @@
     background-color: white;
     color: black;
   }
+
+  /* 
   
+  ************ Skills ************
+  
+  */
+  
+  /* Title of Section: 'What I Do' */
   .Skills-Title {
     padding-top: 240px;
     color: white;
@@ -129,15 +140,6 @@
     font-size: 23px;
     font-weight: bold;
     padding-left: 85px;
-  }
-  
-  #Skills-Line {
-    size: 1;
-    width: 9%;
-    float: left; 
-    position: absolute;
-    top: 812px;
-    left: 80px;
   }
   
   .skills-Container {
@@ -156,14 +158,11 @@
     padding-right: 200px;
   }
   
-  
   #gearsClipArt {
     float: left;
     position: absolute;
     left: 45px;
     top: 870px;
-    /*padding-left: 20px;*/
-  
     padding-top: 10px;
   }
   
@@ -183,37 +182,50 @@
     line-height: 1.5;
     color: #C5C5C5;
   }
+
+  /* 
+  
+  ************ Work Experience ************
+  
+  */
+
+  /* Title of Section: 'What I've Done' */ 
+  
+  .title {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 110px;
+  }
   
   .workExperience {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .workExperience .title {
+    font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 500px;
     color: white;
-    float: left;
-    font-size: 23px;
-    font-weight: bold;
-    padding-left: 80px;
   }
-  
-  .workExperience .codeNinjas {
-    color: white;
-    font-weight: bold;
-    padding-left: 110px;
-    padding-top: 60px;
-  }
-  
-  .workExperience .background {
+  .cols-work {
     float: left;
-    padding-top: 0px;
-    padding-left: 110px;
-    padding-bottom: 100px;
-    width: 35%;
+    width: 50%;
+  }
+
+  .row1-work {
+    padding-left: 120px;
+    display: table;
+    clear: both;
+  }
+  .background {
     font-size: 14px;
     font-weight: normal;
     line-height: 1.5;
     color: #C5C5C5;
+    width: 80%;
   }
+
+  /* 
+  ************ Contact Page ************
+  */ 
   
   .contact {
     font-family: Arial, Helvetica, sans-serif;
@@ -502,7 +514,15 @@
 
 @media screen and (max-width: 675px) {
   /* insert your boss css here and start dominating mobile galaxies */
+  .boldItalicize {
+    font-weight: bold;
+    font-style: italic;
+  }
+  .bolded {
+    font-weight: bold;
+  }
   
+
   body {
     background-color: #222222;
   }
@@ -558,7 +578,7 @@
     float: right;
     padding-right: 20px;
     padding-top: 5px;
-    margin-left: 45vh;
+    margin-left: 22vh;
   }
 
   #logo {
@@ -673,6 +693,12 @@
     color: #C5C5C5;
   }
 
+  /* 
+  
+  ************ Work Experience ************
+  
+  */
+
   .workExperience {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -685,20 +711,26 @@
     padding-left: 30px;
   }
 
-  .workExperience .codeNinjas {
+  .cols-work {
     color: white;
     font-weight: bold;
-    padding-left: 80px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 20px;
   }
 
-  .workExperience .background {
+  .background {
     font-weight: normal;
     color: #C5C5C5;
-    padding-left: 80px;
-    padding-right: 60px;
+    padding-left: 8px;
+    padding-right: 20px;
     padding-bottom: 100px;
   }
+
+  /* 
+  
+  ************ Contact ************
+  
+  */
 
   .contact {
     font-family: Arial, Helvetica, sans-serif;
@@ -977,10 +1009,6 @@
     padding-top: 100px;
     padding-left: 10px;
     padding-bottom: 100px;
-  }
-
-  .bolded {
-    font-weight: bold;
   }
 
   .personalprojects a:link {
